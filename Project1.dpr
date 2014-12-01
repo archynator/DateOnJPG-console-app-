@@ -198,8 +198,7 @@ loadlist:
     else
         ListDir(dir_name, f_mask);
     //Loading JPEG image
-    if Length(file_list)>0 then
-    if (file_list[0]<>'') and (ParamStr(1)='') then
+    if (Length(file_list)>0) and (ParamStr(1)='') then
     begin
         WriteLn('Process all .jpg images in current folder with default settings?');
         Write('Y/N: ');
