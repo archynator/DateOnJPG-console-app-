@@ -1,0 +1,1 @@
+App type has been changed from GUI to CONSOLE because it allows output to console with progress updates
