@@ -1,1 +1,5 @@
 App type has been changed from GUI to CONSOLE because it allows output to console with progress updates
+
+v1.1
+Added "current file" to console output as well
+file_list variable changed from array to TStringList for more flexibility
